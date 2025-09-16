@@ -4,15 +4,15 @@
 Простой HTTP-сервер на Go с базовыми эндпоинтами для тестирования и демонстрации.
 
 ### Команда запуска:
-\`\`\`
+```
 go run ./cmd/server
-\`\`\`
+```
 
 ### Сборка и запуск бинарного файла
-\`\`\`
+```
 go build -o helloapi.exe ./cmd/server
 .\helloapi.exe
-\`\`\`
+```
 
 ### Запросы:
 - http://localhost:8081/hello
@@ -20,7 +20,7 @@ go build -o helloapi.exe ./cmd/server
 - http://localhost:8081/health
 
 ### Структура проекта:
-\`\`\`
+```
 .
 ├── cmd/
 │   └── server/
@@ -28,7 +28,7 @@ go build -o helloapi.exe ./cmd/server
 ├── go.mod
 ├── go.sum
 └── README.md
-\`\`\`
+```
 
 По умолчанию порт 8080, можно изменить с помощью переменной окружения $env:APP_PORT
 
